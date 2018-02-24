@@ -1,3 +1,6 @@
 language: python
 
 os: windows
+
+script:
+    - pytest
