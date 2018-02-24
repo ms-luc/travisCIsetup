@@ -1,7 +1,3 @@
 language: python
 
-script:
-
-    - vendor/bin/pythonunit
-
 os: windows
