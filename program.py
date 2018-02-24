@@ -14,4 +14,6 @@ class Main:
 		
 
 Main.function_01(Main.variable_01, Main.variable_02)
+
+Main.function_02(Main.variable_01, Main.variable_02)
 Main.function_02(Main.variable_03, Main.variable_04)
