@@ -4,3 +4,4 @@ script:
 
     - vendor/bin/pythonunit
 
+os: windows
