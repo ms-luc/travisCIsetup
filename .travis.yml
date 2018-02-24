@@ -1,11 +1,17 @@
 language: python
 
+#which versions of python to test against
 python:
- - "3.6"
+  - "2.7"
+  - "3.6"
 
-install: pip install -e .
+# command to install dependencies
+install:
+#  - pip install ./lecture7/
+#  - pip install -r ./lecture7/requirements.txt
 
-script: pytest
+script: 
+  - python -m unittest discover -v ./q1/ # command to run unit test
 
-os: windows
-
+#can do additional things, say send out reports, which we will discuss next time
+after_success:
