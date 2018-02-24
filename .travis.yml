@@ -1,6 +1,10 @@
 language: python
 
-os: windows
+python:
+    - "3.6"
 
 script:
     - pytest
+
+os: windows
+
