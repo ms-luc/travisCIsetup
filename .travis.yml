@@ -11,9 +11,11 @@ install:
 #  - pip install -r ./lecture7/requirements.txt
 
 script: 
-  - python -m unittest discover -v ./q1/ # command to run unit tes
+  - python -m unittest discover -v ./q1/ 
+  #- python -m unittest discover -v ./q1/ # command to run unit test
   - coverage run ./q1/tests.py
 
 #can do additional things, say send out reports, which we will discuss next time 
 after_success:
     - codecov --token=aae7786d-9294-4ad9-8624-c8a2f188867c
+
