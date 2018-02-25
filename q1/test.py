@@ -14,7 +14,7 @@ class TestMyFunc(unittest.TestCase):
         self.assertEqual( Main.function_02("three","four"), "three\nfour")
 	
     def test_function_3(self):
-        self.assertEqual( Main.function_02(1,"four"), "one\nfour")
+        self.assertEqual( Main.function_02("three","four"), "one\nfour")
 
 if __name__ == '__main__':
 	unittest.main()
