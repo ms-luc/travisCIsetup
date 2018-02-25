@@ -10,7 +10,7 @@ install:
 #  - pip install -r ./lecture7/requirements.txt
 
 script: 
-  #- python -m unittest discover -v ./q1/ # command to run unit test
+  #- python -m unittest discover -v ./q1/ # command to run unit tes
   - coverage run ./q1/tests.py
 
 #can do additional things, say send out reports, which we will discuss next time 
