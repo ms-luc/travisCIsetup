@@ -12,8 +12,7 @@ install:
 
 script: 
   - python -m unittest discover -v ./q1/ 
-  #- python -m unittest discover -v ./q1/ # command to run unit test
-  - coverage run ./q1/tests.py
+  - coverage run ./q1/test.py
 
 #can do additional things, say send out reports, which we will discuss next time 
 after_success:
