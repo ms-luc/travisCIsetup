@@ -1,3 +1,6 @@
+notifications:
+  email: false
+
 language: python
 
 #which versions of python to test against
