@@ -1,7 +1,7 @@
 import unittest
 
 from program import Main
-from program_2.py import Display
+from program_2 import Display
 
 class TestMyFunc(unittest.TestCase):
  
